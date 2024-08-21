@@ -10,3 +10,17 @@ After learning how to make a lever press, the mice were trained with force trial
 The operant boxes were from Med Associates Inc. (Model 1820; Med Associates, St. Albans, VT) and MedScripts were used to run the program (Ward et al., 2015).
 
 ## Script Outputs
+- Date: date of session 
+- Subject: subject number from the Med Associates data file
+- Genotype: assigns a value to the subject based on a list defined by the user
+- Sex: assigns a value to the subject based on a list defined by the user
+- Program: program name from the Med Associates data file
+- Session Time: total session time
+- Number Of Rewards: number of rewards achieved
+- Percent of Choice Trials: percent of trials in the session that were defined as choice trials (the code reads a choice trial as both levers are extended)
+- Percent of Correct Choice Trials: the percent of correct (meaning a reward was achieved) choice trials made within all choice trials
+- Average Latency: average latency to make a lever press
+- Timed Out Trials: times when the lever(s) was presented and no press was made
+- Lever Press: number of total lever presses made in the session
+- Headpokes Missed: number of times when there was no headpoke during dipper presentation
+
